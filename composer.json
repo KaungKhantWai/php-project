@@ -1,0 +1,19 @@
+{
+    "name": "kgkg/php-project",
+    "type": "no",
+    "authors": [
+        {
+            "name": "Kaung Khant Wai",
+            "email": "kaung18090@gmail.com"
+        }
+    ],
+    "require": {
+        "fakerphp/faker": "^1.24"
+    },
+    "autoload": {
+        "psr-4": {
+            "Libs\\": "_classes/Libs/",
+            "Helpers\\": "_classes/Helpers/"
+        }
+    }
+}
